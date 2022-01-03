@@ -1,0 +1,13 @@
+{
+  "name": "mogyuchi.com",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "app",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "seatonjiang.gitmoji-vscode"
+  ],
+  "onCreateCommand": "apk update && apk add --no-cache git",
+  "workspaceFolder": "/app",
+  "shutdownAction": "stopCompose"
+}
