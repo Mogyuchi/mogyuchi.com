@@ -4,7 +4,9 @@ ENV PROJECT_ROOTDIR=/app/
 
 WORKDIR $PROJECT_ROOTDIR
 
-COPY package.json yarn.lock $PROJECT_ROOTDIR
+COPY package.json yarn.lock .yarnrc.yml $PROJECT_ROOTDIR
+
+COPY .yarn/ $PROJECT_ROOTDIR/.yarn/
 
 RUN yarn install
 
