@@ -2431,6 +2431,7 @@ __metadata:
     husky: ">=6"
     lint-staged: ">=10"
     next: 12.0.8
+    next-seo: ^4.29.0
     prettier: 2.5.1
     react: 17.0.2
     react-dom: 17.0.2
@@ -2472,6 +2473,17 @@ __metadata:
   version: 1.4.0
   resolution: "natural-compare@npm:1.4.0"
   checksum: 23ad088b08f898fc9b53011d7bb78ec48e79de7627e01ab5518e806033861bef68d5b0cd0e2205c2f36690ac9571ff6bcb05eb777ced2eeda8d4ac5b44592c3d
+  languageName: node
+  linkType: hard
+
+"next-seo@npm:^4.29.0":
+  version: 4.29.0
+  resolution: "next-seo@npm:4.29.0"
+  peerDependencies:
+    next: ^8.1.1-canary.54 || >=9.0.0
+    react: ">=16.0.0"
+    react-dom: ">=16.0.0"
+  checksum: c725138f2b0a17a4b09afddeeb6d4e1b291220bbd083e8855f7c7646dfb14a742c8dd5a9fd8d5abea4e5a7b978675746b9ce54b119b7d6ceb060a880aace5db8
   languageName: node
   linkType: hard
 
