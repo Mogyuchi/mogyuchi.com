@@ -18,6 +18,12 @@ const SEO: DefaultSeoProps = {
     site: "@Mogyuchi",
     cardType: "summary_large_image",
   },
+  additionalLinkTags: [
+    {
+      rel: "icon",
+      href: "/favicon.ico",
+    },
+  ],
 };
 
 export default SEO;
