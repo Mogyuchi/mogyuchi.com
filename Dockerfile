@@ -7,14 +7,13 @@ USER node
 RUN mkdir -p $PROJECT_ROOTDIR
 WORKDIR $PROJECT_ROOTDIR
 
-COPY --chown=node:node package.json yarn.lock .yarnrc.yml $PROJECT_ROOTDIR
-COPY --chown=node:node .yarn/ $PROJECT_ROOTDIR/.yarn/
+COPY --chown=node:node package.json pnpm-lock.yaml $PROJECT_ROOTDIR
 
-RUN yarn install
+RUN pnpm i
 
 COPY --chown=node:node . $PROJECT_ROOTDIR
 
 EXPOSE 3000
 ENV HOST 0.0.0.0
 
-CMD ["yarn", "dev"]
+CMD ["pnpm", "dev"]
