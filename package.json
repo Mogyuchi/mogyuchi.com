@@ -5,7 +5,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "git config --local core.hooksPath .githooks && chmod -R +x .githooks/"
   },
   "dependencies": {
     "@babel/core": "^7.17.5",
