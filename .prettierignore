@@ -36,10 +36,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
+# eslint
+.eslintcache
 
-# yarn
-# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
-.yarn/*
 
 # pnpm
 pnpm-lock.yaml
