@@ -22,6 +22,16 @@ const SEO: DefaultSeoProps = {
     {
       rel: "icon",
       href: "/favicon.ico",
+      sizes: "any",
+    },
+    {
+      rel: "icon",
+      href: "/icon.svg",
+      type: "image/svg+xml",
+    },
+    {
+      rel: "apple-touch-icon",
+      href: "/icons/apple-touch-icon.png",
     },
   ],
 };
