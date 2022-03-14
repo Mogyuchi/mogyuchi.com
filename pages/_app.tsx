@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import type { AppProps } from "next/app";
 import type { ReactElement, ReactNode } from "react";
-import "../styles/globals.css";
+import "../styles/globals.scss";
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 
