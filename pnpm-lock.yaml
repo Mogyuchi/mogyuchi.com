@@ -8,6 +8,7 @@ specifiers:
   '@mui/material': ^5.5.1
   '@types/node': ^17.0.21
   '@types/react': ^17.0.40
+  clsx: ^1.1.1
   eslint: ^8.11.0
   eslint-config-next: ^12.1.0
   eslint-config-prettier: ^8.5.0
@@ -25,6 +26,7 @@ dependencies:
   '@emotion/styled': 11.8.1_014d3fd47caecfb5ae8372631ae4f839
   '@mui/icons-material': 5.5.1_eaabad477ab592e6fc6c82ff11471ee4
   '@mui/material': 5.5.1_04cccb159326fc32d263f5d228230564
+  clsx: 1.1.1
   next: 12.1.0_6f8a40c9aae361fcde4eab0beee18dbb
   next-seo: 5.1.0_caa633a00319350dbda42996613fe26c
   react: 17.0.2
