@@ -14,9 +14,10 @@ import { createTheme, Theme, ThemeProvider } from "@mui/material/styles";
 import Toolbar from "@mui/material/Toolbar";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
+import Link from "next/link";
 import * as React from "react";
 
-const pages = ["About", "Works", "Skills", "Links"];
+const pages = ["about", "works", "skills", "links"];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
@@ -59,7 +60,7 @@ const ResponsiveAppBar = () => {
               }}
             >
               <Typography variant="h6" noWrap component="div">
-                もぎゅち
+                <Link href="/">もぎゅち</Link>
               </Typography>
             </Button>
 
@@ -94,7 +95,9 @@ const ResponsiveAppBar = () => {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
+                    <Typography textAlign="center">
+                      <Link href={page}>{page}</Link>
+                    </Typography>
                   </MenuItem>
                 ))}
               </Menu>
@@ -102,7 +105,7 @@ const ResponsiveAppBar = () => {
             <Box sx={{ flexGrow: 1, display: { xs: "flex", sm: "none" } }}>
               <Button sx={{ color: "white", display: "block" }}>
                 <Typography variant="h6" noWrap component="div">
-                  もぎゅち
+                  <Link href="/">もぎゅち</Link>
                 </Typography>
               </Button>
             </Box>
@@ -114,7 +117,7 @@ const ResponsiveAppBar = () => {
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  {page}
+                  <Link href={page}>{page}</Link>
                 </Button>
               ))}
             </Box>
@@ -136,7 +139,9 @@ const ResponsiveAppBar = () => {
                   aria-label="アバウトページへ移動"
                   color="inherit"
                 >
-                  <ChatIcon />
+                  <Link href="/about">
+                    <ChatIcon />
+                  </Link>
                 </IconButton>
               </Tooltip>
               <Tooltip title="Works">
@@ -145,7 +150,9 @@ const ResponsiveAppBar = () => {
                   aria-label="作品ページへ移動"
                   color="inherit"
                 >
-                  <Inventory2Icon />
+                  <Link href="/works">
+                    <Inventory2Icon />
+                  </Link>
                 </IconButton>
               </Tooltip>
               <Tooltip title="Skills">
@@ -154,7 +161,9 @@ const ResponsiveAppBar = () => {
                   aria-label="スキルページへ移動"
                   color="inherit"
                 >
-                  <HandymanIcon />
+                  <Link href="/skills">
+                    <HandymanIcon />
+                  </Link>
                 </IconButton>
               </Tooltip>
             </Box>
@@ -165,7 +174,9 @@ const ResponsiveAppBar = () => {
                   aria-label="外部リンク一覧ページへ移動"
                   color="inherit"
                 >
-                  <LinkIcon />
+                  <Link href="/links">
+                    <LinkIcon />
+                  </Link>
                 </IconButton>
               </Tooltip>
             </Box>
