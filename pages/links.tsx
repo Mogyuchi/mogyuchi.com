@@ -4,6 +4,8 @@ import { styled } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 import type { ReactElement } from "react";
 import Layout from "../components/layout";
+import Link from "../src/Link";
+import * as React from "react";
 
 const createButton = (color: string) => {
   return styled(Button)<ButtonProps>(({ theme }) => ({
@@ -37,7 +39,7 @@ export default function Links() {
       sx={{
         display: "flex",
         flexWrap: "wrap",
-        width: "50em",
+        maxWidth: "50em",
         justifyContent: "center",
         gap: 2,
       }}
@@ -46,42 +48,96 @@ export default function Links() {
         <Typography variant="h5">Discord</Typography>
         <Typography variant="body1">Mogyuchi#0918</Typography>
       </DiscordButton>
-      <InstagramButton variant="outlined">
-        <Typography variant="h5">Instagram</Typography>
-        <Typography variant="body1">Mogyuchi</Typography>
-      </InstagramButton>
-      <TwitterButton variant="outlined">
-        <Typography variant="h5">Twitter</Typography>
-        <Typography variant="body1">@Mogyuchi</Typography>
-      </TwitterButton>
-      <RedditButton variant="outlined">
-        <Typography variant="h5">Reddit</Typography>
-        <Typography variant="body1">Mogyuchi</Typography>
-      </RedditButton>
-      <SteamButton variant="outlined">
-        <Typography variant="h5">Steam</Typography>
-        <Typography variant="body1">Mogyuchi</Typography>
-      </SteamButton>
-      <GitHubButton variant="outlined">
-        <Typography variant="h5">GitHub</Typography>
-        <Typography variant="body1">Mogyuchi</Typography>
-      </GitHubButton>
-      <YouTubeButton variant="outlined">
-        <Typography variant="h5">YouTube</Typography>
-        <Typography variant="body1">Mogyuchi</Typography>
-      </YouTubeButton>
-      <TwitchButton variant="outlined">
-        <Typography variant="h5">Twitch</Typography>
-        <Typography variant="body1">Mogyuchi</Typography>
-      </TwitchButton>
-      <QiitaButton variant="outlined">
-        <Typography variant="h5">Qiita</Typography>
-        <Typography variant="body1">Mogyuchi</Typography>
-      </QiitaButton>
-      <TikTokButton variant="outlined">
-        <Typography variant="h5">TikTok</Typography>
-        <Typography variant="body1">Mogyuchi</Typography>
-      </TikTokButton>
+      <Link
+        href="https://www.instagram.com/mogyuchi/"
+        target="_brank"
+        rel="noreferrer noopener"
+      >
+        <InstagramButton variant="outlined">
+          <Typography variant="h5">Instagram</Typography>
+          <Typography variant="body1">Mogyuchi</Typography>
+        </InstagramButton>
+      </Link>
+      <Link
+        href="https://twitter.com/Mogyuchi"
+        target="_brank"
+        rel="noreferrer noopener"
+      >
+        <TwitterButton variant="outlined">
+          <Typography variant="h5">Twitter</Typography>
+          <Typography variant="body1">@Mogyuchi</Typography>
+        </TwitterButton>
+      </Link>
+      <Link
+        href="https://www.reddit.com/user/Mogyuchi"
+        target="_brank"
+        rel="noreferrer noopener"
+      >
+        <RedditButton variant="outlined">
+          <Typography variant="h5">Reddit</Typography>
+          <Typography variant="body1">Mogyuchi</Typography>
+        </RedditButton>
+      </Link>
+      <Link
+        href="https://steamcommunity.com/id/Mogyuchi"
+        target="_brank"
+        rel="noreferrer noopener"
+      >
+        <SteamButton variant="outlined">
+          <Typography variant="h5">Steam</Typography>
+          <Typography variant="body1">Mogyuchi</Typography>
+        </SteamButton>
+      </Link>
+      <Link
+        href="https://github.com/Mogyuchi"
+        target="_brank"
+        rel="noreferrer noopener"
+      >
+        <GitHubButton variant="outlined">
+          <Typography variant="h5">GitHub</Typography>
+          <Typography variant="body1">Mogyuchi</Typography>
+        </GitHubButton>
+      </Link>
+      <Link
+        href="https://www.youtube.com/channel/UCOv3KOCGFmw9CH9iTa_tETQ"
+        target="_brank"
+        rel="noreferrer noopener"
+      >
+        <YouTubeButton variant="outlined">
+          <Typography variant="h5">YouTube</Typography>
+          <Typography variant="body1">Mogyuchi</Typography>
+        </YouTubeButton>
+      </Link>
+      <Link
+        href="https://www.twitch.tv/mogyuchi"
+        target="_brank"
+        rel="noreferrer noopener"
+      >
+        <TwitchButton variant="outlined">
+          <Typography variant="h5">Twitch</Typography>
+          <Typography variant="body1">Mogyuchi</Typography>
+        </TwitchButton>
+      </Link>
+      <Link
+        href="https://qiita.com/Mogyuchi"
+        target="_brank"
+        rel="noreferrer noopener"
+      >
+        <QiitaButton variant="outlined">
+          <Typography variant="h5">Qiita</Typography>
+          <Typography variant="body1">Mogyuchi</Typography>
+        </QiitaButton>
+      </Link>
+      <Link
+        href="https://www.tiktok.com/@mogyuchi"
+        target="_brank"
+        rel="noreferrer noopener"
+      >
+        <TikTokButton variant="outlined">
+          <Typography variant="h5">TikTok</Typography>
+          <Typography variant="body1">Mogyuchi</Typography>
+        </TikTokButton>
+      </Link>
     </Box>
   );
 }
