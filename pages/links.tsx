@@ -12,6 +12,7 @@ const createButton = (color: string) => {
     flexDirection: "column",
     color: color,
     borderColor: color,
+    backgroundColor: "#fff",
     textTransform: "none",
     width: "12.2em",
     height: "6em",
