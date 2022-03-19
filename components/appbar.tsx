@@ -14,8 +14,9 @@ import { createTheme, Theme, ThemeProvider } from "@mui/material/styles";
 import Toolbar from "@mui/material/Toolbar";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
-import Link from "../src/Link";
+import { useRouter } from "next/router";
 import * as React from "react";
+import Link from "../src/Link";
 
 const pages = ["about", "works", "skills", "links"];
 
@@ -124,6 +125,8 @@ const ResponsiveAppBar = () => {
                   sx={{ my: 2, color: "white", display: "block" }}
                   component={Link}
                   href={page}
+                  // eslint-disable-next-line react-hooks/rules-of-hooks
+                  disabled={useRouter().pathname == `/${page}`}
                 >
                   {page}
                 </Button>
@@ -148,6 +151,7 @@ const ResponsiveAppBar = () => {
                   size="large"
                   aria-label="アバウトページへ移動"
                   color="inherit"
+                  disabled={useRouter().pathname == "/about"}
                 >
                   <ChatIcon />
                 </IconButton>
@@ -159,6 +163,7 @@ const ResponsiveAppBar = () => {
                   size="large"
                   aria-label="作品ページへ移動"
                   color="inherit"
+                  disabled={useRouter().pathname == "/works"}
                 >
                   <Inventory2Icon />
                 </IconButton>
@@ -170,6 +175,7 @@ const ResponsiveAppBar = () => {
                   size="large"
                   aria-label="スキルページへ移動"
                   color="inherit"
+                  disabled={useRouter().pathname == "/skills"}
                 >
                   <HandymanIcon />
                 </IconButton>
@@ -183,6 +189,7 @@ const ResponsiveAppBar = () => {
                   size="large"
                   aria-label="外部リンク一覧ページへ移動"
                   color="inherit"
+                  disabled={useRouter().pathname == "/links"}
                 >
                   <LinkIcon />
                 </IconButton>
