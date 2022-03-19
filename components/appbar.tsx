@@ -14,7 +14,7 @@ import { createTheme, Theme, ThemeProvider } from "@mui/material/styles";
 import Toolbar from "@mui/material/Toolbar";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
-import Link from "next/link";
+import Link from "../src/Link";
 import * as React from "react";
 
 const pages = ["about", "works", "skills", "links"];
@@ -58,9 +58,11 @@ const ResponsiveAppBar = () => {
                 color: "white",
                 display: { xs: "none", sm: "block" },
               }}
+              component={Link}
+              href="/"
             >
               <Typography variant="h6" noWrap component="div">
-                <Link href="/">もぎゅち</Link>
+                もぎゅち
               </Typography>
             </Button>
 
@@ -103,9 +105,13 @@ const ResponsiveAppBar = () => {
               </Menu>
             </Box>
             <Box sx={{ flexGrow: 1, display: { xs: "flex", sm: "none" } }}>
-              <Button sx={{ color: "white", display: "block" }}>
+              <Button
+                sx={{ color: "white", display: "block" }}
+                component={Link}
+                href="/"
+              >
                 <Typography variant="h6" noWrap component="div">
-                  <Link href="/">もぎゅち</Link>
+                  もぎゅち
                 </Typography>
               </Button>
             </Box>
@@ -116,8 +122,10 @@ const ResponsiveAppBar = () => {
                   key={page}
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
+                  component={Link}
+                  href={page}
                 >
-                  <Link href={page}>{page}</Link>
+                  {page}
                 </Button>
               ))}
             </Box>
@@ -135,48 +143,48 @@ const ResponsiveAppBar = () => {
             >
               <Tooltip title="About">
                 <IconButton
+                  component={Link}
+                  href="/about"
                   size="large"
                   aria-label="アバウトページへ移動"
                   color="inherit"
                 >
-                  <Link href="/about">
-                    <ChatIcon />
-                  </Link>
+                  <ChatIcon />
                 </IconButton>
               </Tooltip>
               <Tooltip title="Works">
                 <IconButton
+                  component={Link}
+                  href="/works"
                   size="large"
                   aria-label="作品ページへ移動"
                   color="inherit"
                 >
-                  <Link href="/works">
-                    <Inventory2Icon />
-                  </Link>
+                  <Inventory2Icon />
                 </IconButton>
               </Tooltip>
               <Tooltip title="Skills">
                 <IconButton
+                  component={Link}
+                  href="/skills"
                   size="large"
                   aria-label="スキルページへ移動"
                   color="inherit"
                 >
-                  <Link href="/skills">
-                    <HandymanIcon />
-                  </Link>
+                  <HandymanIcon />
                 </IconButton>
               </Tooltip>
             </Box>
             <Box sx={{ flexGrow: 0, display: { xs: "flex", md: "none" } }}>
               <Tooltip title="Links">
                 <IconButton
+                  component={Link}
+                  href="/links"
                   size="large"
                   aria-label="外部リンク一覧ページへ移動"
                   color="inherit"
                 >
-                  <Link href="/links">
-                    <LinkIcon />
-                  </Link>
+                  <LinkIcon />
                 </IconButton>
               </Tooltip>
             </Box>
