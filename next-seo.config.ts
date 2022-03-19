@@ -7,16 +7,16 @@ const SEO: DefaultSeoProps = {
   openGraph: {
     type: "website",
     locale: "ja_JP",
-    url: "https://mogyuchi.vercel.app/",
+    url: "https://mogyuchi.com/",
     title: "もぎゅち",
     description: "Official website of Mogyuchi.",
     site_name: "Mogyuchi",
-    images: [{ url: "https://mogyuchi.com/assets/ogp.jpg" }],
+    images: [{ url: "https://mogyuchi.com/ogp/1.png" }],
   },
   twitter: {
     handle: "@Mogyuchi",
     site: "@Mogyuchi",
-    cardType: "summary_large_image",
+    cardType: "summary",
   },
   additionalLinkTags: [
     {
