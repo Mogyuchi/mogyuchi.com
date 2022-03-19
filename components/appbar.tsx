@@ -1,4 +1,3 @@
-import ChatIcon from "@mui/icons-material/Chat";
 import HandymanIcon from "@mui/icons-material/Handyman";
 import Inventory2Icon from "@mui/icons-material/Inventory2";
 import LinkIcon from "@mui/icons-material/Link";
@@ -18,7 +17,7 @@ import { useRouter } from "next/router";
 import * as React from "react";
 import Link from "../src/Link";
 
-const pages = ["about", "works", "skills", "links"];
+const pages = ["works", "skills", "links"];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
@@ -41,8 +40,8 @@ const ResponsiveAppBar = () => {
           breakpoints: {
             values: {
               xs: 0,
-              sm: 360,
-              md: 430,
+              sm: 305,
+              md: 355,
               lg: 1200,
               xl: 1536,
             },
@@ -144,18 +143,6 @@ const ResponsiveAppBar = () => {
                 display: { xs: "none", sm: "flex", md: "none" },
               }}
             >
-              <Tooltip title="About">
-                <IconButton
-                  component={Link}
-                  href="/about"
-                  size="large"
-                  aria-label="アバウトページへ移動"
-                  color="inherit"
-                  disabled={useRouter().pathname == "/about"}
-                >
-                  <ChatIcon />
-                </IconButton>
-              </Tooltip>
               <Tooltip title="Works">
                 <IconButton
                   component={Link}
