@@ -34,6 +34,7 @@ const SEO: DefaultSeoProps = {
       href: "/icons/apple-touch-icon.png",
     },
   ],
+  additionalMetaTags: [{ name: "theme-color", content: "#ec407a" }],
 };
 
 export default SEO;

@@ -1,0 +1,11 @@
+{
+  "name": "Mogyuchi",
+  "icons": [
+    { "src": "/icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ],
+  "theme_color": "#ec407a",
+  "background_color": "#fff7ff",
+  "start_url": "/",
+  "display": "standalone"
+}
