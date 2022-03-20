@@ -33,6 +33,10 @@ const SEO: DefaultSeoProps = {
       rel: "apple-touch-icon",
       href: "/icons/apple-touch-icon.png",
     },
+    {
+      rel: "manifest",
+      href: "/manifest.json",
+    },
   ],
   additionalMetaTags: [{ name: "theme-color", content: "#ec407a" }],
 };
