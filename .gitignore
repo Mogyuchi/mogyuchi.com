@@ -38,3 +38,11 @@ yarn-error.log*
 
 # eslint
 .eslintcache
+
+
+# next-pwa
+**/public/precache.*.js
+**/public/workbox-*.js*
+**/public/sw.js*
+**/public/worker-*.js*
+**/public/fallback-*.js
