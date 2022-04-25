@@ -49,7 +49,7 @@ const ResponsiveAppBar = () => {
         })
       }
     >
-      <AppBar position="static">
+      <AppBar position="sticky">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Button
