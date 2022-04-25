@@ -29,6 +29,7 @@ const TwitterButton = createButton("#1d9bf0");
 const SteamButton = createButton("rgb(0, 0, 0)");
 const GitHubButton = createButton("#222222");
 const QiitaButton = createButton("#55c500");
+const ZennButton = createButton("#3EA8FF");
 
 export default function Links() {
   return (
@@ -94,6 +95,16 @@ export default function Links() {
           <Typography variant="h5">Qiita</Typography>
           <Typography variant="body1">Mogyuchi</Typography>
         </QiitaButton>
+      </Link>
+      <Link
+        href="https://zenn.dev/mogyuchi"
+        target="_brank"
+        rel="noreferrer noopener"
+      >
+        <ZennButton variant="outlined">
+          <Typography variant="h5">Zenn</Typography>
+          <Typography variant="body1">mogyuchi</Typography>
+        </ZennButton>
       </Link>
     </Box>
   );
