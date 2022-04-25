@@ -23,16 +23,31 @@ const createButton = (color: string) => {
     },
   }));
 };
-const DiscordButton = createButton("#5865f2");
-const InstagramButton = createButton("#f00074");
-const TwitterButton = createButton("#1d9bf0");
-const RedditButton = createButton("#ff4500");
-const SteamButton = createButton("rgb(0, 0, 0)");
-const GitHubButton = createButton("#222222");
-const YouTubeButton = createButton("#ff0000");
-const TwitchButton = createButton("#9146ff");
-const QiitaButton = createButton("#55c500");
-const TikTokButton = createButton("#afafaf");
+const AccountButton = (props: {
+  color: string;
+  service: string;
+  user: string;
+  link: string | undefined;
+}) => {
+  const ColorButton = createButton(props.color);
+  if (props.link) {
+    return (
+      <Link href={props.link} target="_brank" rel="noreferrer noopener">
+        <ColorButton variant="outlined">
+          <Typography variant="h5">{props.service}</Typography>
+          <Typography variant="body1">{props.user}</Typography>
+        </ColorButton>
+      </Link>
+    );
+  } else {
+    return (
+      <ColorButton variant="outlined">
+        <Typography variant="h5">{props.service}</Typography>
+        <Typography variant="body1">{props.user}</Typography>
+      </ColorButton>
+    );
+  }
+};
 
 export default function Links() {
   return (
@@ -45,100 +60,48 @@ export default function Links() {
         gap: 2,
       }}
     >
-      <DiscordButton variant="outlined">
-        <Typography variant="h5">Discord</Typography>
-        <Typography variant="body1">Mogyuchi#0918</Typography>
-      </DiscordButton>
-      <Link
-        href="https://www.instagram.com/mogyuchi/"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <InstagramButton variant="outlined">
-          <Typography variant="h5">Instagram</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </InstagramButton>
-      </Link>
-      <Link
-        href="https://twitter.com/Mogyuchi"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <TwitterButton variant="outlined">
-          <Typography variant="h5">Twitter</Typography>
-          <Typography variant="body1">@Mogyuchi</Typography>
-        </TwitterButton>
-      </Link>
-      <Link
-        href="https://www.reddit.com/user/Mogyuchi"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <RedditButton variant="outlined">
-          <Typography variant="h5">Reddit</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </RedditButton>
-      </Link>
-      <Link
-        href="https://steamcommunity.com/id/Mogyuchi"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <SteamButton variant="outlined">
-          <Typography variant="h5">Steam</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </SteamButton>
-      </Link>
-      <Link
-        href="https://github.com/Mogyuchi"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <GitHubButton variant="outlined">
-          <Typography variant="h5">GitHub</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </GitHubButton>
-      </Link>
-      <Link
-        href="https://www.youtube.com/channel/UCOv3KOCGFmw9CH9iTa_tETQ"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <YouTubeButton variant="outlined">
-          <Typography variant="h5">YouTube</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </YouTubeButton>
-      </Link>
-      <Link
-        href="https://www.twitch.tv/mogyuchi"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <TwitchButton variant="outlined">
-          <Typography variant="h5">Twitch</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </TwitchButton>
-      </Link>
-      <Link
-        href="https://qiita.com/Mogyuchi"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <QiitaButton variant="outlined">
-          <Typography variant="h5">Qiita</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </QiitaButton>
-      </Link>
-      <Link
-        href="https://www.tiktok.com/@mogyuchi"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <TikTokButton variant="outlined">
-          <Typography variant="h5">TikTok</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </TikTokButton>
-      </Link>
+      <AccountButton
+        color="#5865f2"
+        service="Discord"
+        user="Mogyuchi#0918"
+        link={undefined}
+      ></AccountButton>
+      <AccountButton
+        color="#f00074"
+        service="Instagram"
+        user="Mogyuchi"
+        link="https://www.instagram.com/mogyuchi/"
+      ></AccountButton>
+      <AccountButton
+        color="#1d9bf0"
+        service="Twitter"
+        user="@Mogyuchi"
+        link="https://twitter.com/Mogyuchi"
+      ></AccountButton>
+      <AccountButton
+        color="rgb(0, 0, 0)"
+        service="Steam"
+        user="Mogyuchi"
+        link="https://steamcommunity.com/id/Mogyuchi"
+      ></AccountButton>
+      <AccountButton
+        color="#222222"
+        service="GitHub"
+        user="Mogyuchi"
+        link="https://github.com/Mogyuchi"
+      ></AccountButton>
+      <AccountButton
+        color="#55c500"
+        service="Qiita"
+        user="Mogyuchi"
+        link="https://qiita.com/Mogyuchi"
+      ></AccountButton>
+      <AccountButton
+        color="#3EA8FF"
+        service="Zenn"
+        user="Mogyuchi"
+        link="https://zenn.dev/mogyuchi"
+      ></AccountButton>
     </Box>
   );
 }
