@@ -26,13 +26,9 @@ const createButton = (color: string) => {
 const DiscordButton = createButton("#5865f2");
 const InstagramButton = createButton("#f00074");
 const TwitterButton = createButton("#1d9bf0");
-const RedditButton = createButton("#ff4500");
 const SteamButton = createButton("rgb(0, 0, 0)");
 const GitHubButton = createButton("#222222");
-const YouTubeButton = createButton("#ff0000");
-const TwitchButton = createButton("#9146ff");
 const QiitaButton = createButton("#55c500");
-const TikTokButton = createButton("#afafaf");
 
 export default function Links() {
   return (
@@ -70,16 +66,6 @@ export default function Links() {
         </TwitterButton>
       </Link>
       <Link
-        href="https://www.reddit.com/user/Mogyuchi"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <RedditButton variant="outlined">
-          <Typography variant="h5">Reddit</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </RedditButton>
-      </Link>
-      <Link
         href="https://steamcommunity.com/id/Mogyuchi"
         target="_brank"
         rel="noreferrer noopener"
@@ -100,26 +86,6 @@ export default function Links() {
         </GitHubButton>
       </Link>
       <Link
-        href="https://www.youtube.com/channel/UCOv3KOCGFmw9CH9iTa_tETQ"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <YouTubeButton variant="outlined">
-          <Typography variant="h5">YouTube</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </YouTubeButton>
-      </Link>
-      <Link
-        href="https://www.twitch.tv/mogyuchi"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <TwitchButton variant="outlined">
-          <Typography variant="h5">Twitch</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </TwitchButton>
-      </Link>
-      <Link
         href="https://qiita.com/Mogyuchi"
         target="_brank"
         rel="noreferrer noopener"
@@ -128,16 +94,6 @@ export default function Links() {
           <Typography variant="h5">Qiita</Typography>
           <Typography variant="body1">Mogyuchi</Typography>
         </QiitaButton>
-      </Link>
-      <Link
-        href="https://www.tiktok.com/@mogyuchi"
-        target="_brank"
-        rel="noreferrer noopener"
-      >
-        <TikTokButton variant="outlined">
-          <Typography variant="h5">TikTok</Typography>
-          <Typography variant="body1">Mogyuchi</Typography>
-        </TikTokButton>
       </Link>
     </Box>
   );
