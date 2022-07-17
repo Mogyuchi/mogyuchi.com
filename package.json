@@ -14,7 +14,7 @@
     "@emotion/styled": "11.8.1",
     "@mui/icons-material": "5.8.3",
     "@mui/material": "5.8.3",
-    "clsx": "1.1.1",
+    "clsx": "1.2.1",
     "next": "12.1.5",
     "next-pwa": "5.5.4",
     "next-seo": "5.4.0",
