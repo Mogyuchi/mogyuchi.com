@@ -20,7 +20,7 @@ specifiers:
   react-dom: 18.1.0
   sass: 1.52.3
   typescript: 4.7.4
-  webpack: 5.72.0
+  webpack: 5.73.0
 
 dependencies:
   '@babel/core': 7.17.10
@@ -30,12 +30,12 @@ dependencies:
   '@mui/material': 5.8.3_b3paoylv2eq5sxjah6ov6v6pji
   clsx: 1.1.1
   next: 12.1.5_mk4mns4epknqld223h4vbq5bga
-  next-pwa: 5.5.4_j7hdeytfhmq5pogszarundi7jy
+  next-pwa: 5.5.4_tesu2pum2tdfdziw7b7mmmshli
   next-seo: 5.4.0_iw2ijl5yq2m4rs4sgxacncq4yu
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
   sass: 1.52.3
-  webpack: 5.72.0
+  webpack: 5.73.0
 
 devDependencies:
   '@types/node': 17.0.31
@@ -2131,7 +2131,7 @@ packages:
     resolution: {integrity: sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==}
     dev: true
 
-  /babel-loader/8.2.5_rb5fcebzp6kx3hqg3ucus54t3m:
+  /babel-loader/8.2.5_fmn5fnhqkdgwbfutexxyyj3pzq:
     resolution: {integrity: sha512-OSiFfH89LrEMiWd4pLNqGz4CwJDtbs2ZVc+iGu2HrkRfPxId9F2anQj38IxWpmRfsUY0aBZYi1EFcd3mhtRMLQ==}
     engines: {node: '>= 8.9'}
     peerDependencies:
@@ -2143,7 +2143,7 @@ packages:
       loader-utils: 2.0.2
       make-dir: 3.1.0
       schema-utils: 2.7.1
-      webpack: 5.72.0
+      webpack: 5.73.0
     dev: false
 
   /babel-plugin-dynamic-import-node/2.3.3:
@@ -2292,14 +2292,14 @@ packages:
     engines: {node: '>=6.0'}
     dev: false
 
-  /clean-webpack-plugin/4.0.0_webpack@5.72.0:
+  /clean-webpack-plugin/4.0.0_webpack@5.73.0:
     resolution: {integrity: sha512-WuWE1nyTNAyW5T7oNyys2EN0cfP2fdRxhxnIQWiAp0bMabPdHhoGxM8A6YL2GhqwgrPnnaemVE7nv5XJ2Fhh2w==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       webpack: '>=4.0.0 <6.0.0'
     dependencies:
       del: 4.1.1
-      webpack: 5.72.0
+      webpack: 5.73.0
     dev: false
 
   /clsx/1.1.1:
@@ -3348,10 +3348,6 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  /json-parse-better-errors/1.0.2:
-    resolution: {integrity: sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==}
-    dev: false
-
   /json-parse-even-better-errors/2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
     dev: false
@@ -3569,17 +3565,17 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
-  /next-pwa/5.5.4_j7hdeytfhmq5pogszarundi7jy:
+  /next-pwa/5.5.4_tesu2pum2tdfdziw7b7mmmshli:
     resolution: {integrity: sha512-EgB2MQWGR8oZDzY6US+/D0LOCUhPZYCgeqRVBYDxQWNi0N6XfQOoZPw2COIrg/eMt/rB0M+/mquhAQACs5v4Ag==}
     peerDependencies:
       next: '>=9.0.0'
     dependencies:
-      babel-loader: 8.2.5_rb5fcebzp6kx3hqg3ucus54t3m
-      clean-webpack-plugin: 4.0.0_webpack@5.72.0
+      babel-loader: 8.2.5_fmn5fnhqkdgwbfutexxyyj3pzq
+      clean-webpack-plugin: 4.0.0_webpack@5.73.0
       globby: 11.1.0
       next: 12.1.5_mk4mns4epknqld223h4vbq5bga
-      terser-webpack-plugin: 5.3.3_webpack@5.72.0
-      workbox-webpack-plugin: 6.5.3_webpack@5.72.0
+      terser-webpack-plugin: 5.3.3_webpack@5.73.0
+      workbox-webpack-plugin: 6.5.3_webpack@5.73.0
       workbox-window: 6.5.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -4302,31 +4298,7 @@ packages:
       unique-string: 2.0.0
     dev: false
 
-  /terser-webpack-plugin/5.3.1_webpack@5.72.0:
-    resolution: {integrity: sha512-GvlZdT6wPQKbDNW/GDQzZFg/j4vKU96yl2q6mcUkzKOgW4gwf1Z8cZToUCrz31XHlPWH8MVb1r2tFtdDtTGJ7g==}
-    engines: {node: '>= 10.13.0'}
-    peerDependencies:
-      '@swc/core': '*'
-      esbuild: '*'
-      uglify-js: '*'
-      webpack: ^5.1.0
-    peerDependenciesMeta:
-      '@swc/core':
-        optional: true
-      esbuild:
-        optional: true
-      uglify-js:
-        optional: true
-    dependencies:
-      jest-worker: 27.5.1
-      schema-utils: 3.1.1
-      serialize-javascript: 6.0.0
-      source-map: 0.6.1
-      terser: 5.13.1
-      webpack: 5.72.0
-    dev: false
-
-  /terser-webpack-plugin/5.3.3_webpack@5.72.0:
+  /terser-webpack-plugin/5.3.3_webpack@5.73.0:
     resolution: {integrity: sha512-Fx60G5HNYknNTNQnzQ1VePRuu89ZVYWfjRAeT5rITuCY/1b08s49e5kSQwHDirKZWuoKOBRFS98EUUoZ9kLEwQ==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -4347,7 +4319,7 @@ packages:
       schema-utils: 3.1.1
       serialize-javascript: 6.0.0
       terser: 5.13.1
-      webpack: 5.72.0
+      webpack: 5.73.0
     dev: false
 
   /terser/5.13.1:
@@ -4508,8 +4480,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  /webpack/5.72.0:
-    resolution: {integrity: sha512-qmSmbspI0Qo5ld49htys8GY9XhS9CGqFoHTsOVAnjBdg0Zn79y135R+k4IR4rKK6+eKaabMhJwiVB7xw0SJu5w==}
+  /webpack/5.73.0:
+    resolution: {integrity: sha512-svjudQRPPa0YiOYa2lM/Gacw0r6PvxptHj4FuEKQ2kX05ZLkjbVc5MnPs6its5j7IZljnIqSVo/OsY2X0IpHGA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -4533,13 +4505,13 @@ packages:
       events: 3.3.0
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.10
-      json-parse-better-errors: 1.0.2
+      json-parse-even-better-errors: 2.3.1
       loader-runner: 4.3.0
       mime-types: 2.1.35
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.1_webpack@5.72.0
+      terser-webpack-plugin: 5.3.3_webpack@5.73.0
       watchpack: 2.3.1
       webpack-sources: 3.2.3
     transitivePeerDependencies:
@@ -4717,7 +4689,7 @@ packages:
     resolution: {integrity: sha512-BQBzm092w+NqdIEF2yhl32dERt9j9MDGUTa2Eaa+o3YKL4Qqw55W9yQC6f44FdAHdAJrJvp0t+HVrfh8AiGj8A==}
     dev: false
 
-  /workbox-webpack-plugin/6.5.3_webpack@5.72.0:
+  /workbox-webpack-plugin/6.5.3_webpack@5.73.0:
     resolution: {integrity: sha512-Es8Xr02Gi6Kc3zaUwR691ZLy61hz3vhhs5GztcklQ7kl5k2qAusPh0s6LF3wEtlpfs9ZDErnmy5SErwoll7jBA==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -4726,7 +4698,7 @@ packages:
       fast-json-stable-stringify: 2.1.0
       pretty-bytes: 5.6.0
       upath: 1.2.0
-      webpack: 5.72.0
+      webpack: 5.73.0
       webpack-sources: 1.4.3
       workbox-build: 6.5.3
     transitivePeerDependencies:
