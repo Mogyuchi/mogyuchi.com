@@ -18,7 +18,7 @@ specifiers:
   prettier: 2.7.1
   react: 18.1.0
   react-dom: 18.1.0
-  sass: 1.52.3
+  sass: 1.54.0
   typescript: 4.7.4
   webpack: 5.73.0
 
@@ -29,12 +29,12 @@ dependencies:
   '@mui/icons-material': 5.8.4_2pb7rfxvvtmw4kbypurh3scfxa
   '@mui/material': 5.9.0_b3paoylv2eq5sxjah6ov6v6pji
   clsx: 1.1.1
-  next: 12.1.5_lvesydxeh7wt6d7btn5cp4s3km
+  next: 12.1.5_2yfixswoflgdoc3ley5njlepdq
   next-pwa: 5.5.4_hzmxjveyhxhb7b5meujqoaw2ie
   next-seo: 5.4.0_iw2ijl5yq2m4rs4sgxacncq4yu
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
-  sass: 1.52.3
+  sass: 1.54.0
   webpack: 5.73.0
 
 devDependencies:
@@ -2629,7 +2629,7 @@ packages:
       eslint-plugin-jsx-a11y: 6.5.1_eslint@8.17.0
       eslint-plugin-react: 7.29.1_eslint@8.17.0
       eslint-plugin-react-hooks: 4.3.0_eslint@8.17.0
-      next: 12.1.5_lvesydxeh7wt6d7btn5cp4s3km
+      next: 12.1.5_2yfixswoflgdoc3ley5njlepdq
       typescript: 4.7.4
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
@@ -3611,7 +3611,7 @@ packages:
       babel-loader: 8.2.5_fswvdo7jykdwhfxrdcvghfn6pa
       clean-webpack-plugin: 4.0.0_webpack@5.73.0
       globby: 11.1.0
-      next: 12.1.5_lvesydxeh7wt6d7btn5cp4s3km
+      next: 12.1.5_2yfixswoflgdoc3ley5njlepdq
       terser-webpack-plugin: 5.3.3_webpack@5.73.0
       workbox-webpack-plugin: 6.5.3_webpack@5.73.0
       workbox-window: 6.5.3
@@ -3632,12 +3632,12 @@ packages:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
     dependencies:
-      next: 12.1.5_lvesydxeh7wt6d7btn5cp4s3km
+      next: 12.1.5_2yfixswoflgdoc3ley5njlepdq
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
     dev: false
 
-  /next/12.1.5_lvesydxeh7wt6d7btn5cp4s3km:
+  /next/12.1.5_2yfixswoflgdoc3ley5njlepdq:
     resolution: {integrity: sha512-YGHDpyfgCfnT5GZObsKepmRnne7Kzp7nGrac07dikhutWQug7hHg85/+sPJ4ZW5Q2pDkb+n0FnmLkmd44htIJQ==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -3660,7 +3660,7 @@ packages:
       postcss: 8.4.5
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
-      sass: 1.52.3
+      sass: 1.54.0
       styled-jsx: 5.0.1_a74jwgs23ew4elzd6gcwcilawq
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.1.5
@@ -4098,8 +4098,8 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: false
 
-  /sass/1.52.3:
-    resolution: {integrity: sha512-LNNPJ9lafx+j1ArtA7GyEJm9eawXN8KlA1+5dF6IZyoONg1Tyo/g+muOsENWJH/2Q1FHbbV4UwliU0cXMa/VIA==}
+  /sass/1.54.0:
+    resolution: {integrity: sha512-C4zp79GCXZfK0yoHZg+GxF818/aclhp9F48XBu/+bm9vXEVAYov9iU3FBVRMq3Hx3OA4jfKL+p2K9180mEh0xQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
