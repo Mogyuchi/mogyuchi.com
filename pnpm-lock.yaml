@@ -8,7 +8,7 @@ specifiers:
   '@mui/material': 5.11.8
   '@types/node': 17.0.31
   '@types/react': 18.0.12
-  clsx: 1.1.1
+  clsx: 1.2.1
   eslint: 8.34.0
   eslint-config-next: 12.1.5
   eslint-config-prettier: 8.6.0
@@ -28,7 +28,7 @@ dependencies:
   '@emotion/styled': 11.10.5_3qbioxcnzsikx534sh7r5oh56y
   '@mui/icons-material': 5.11.0_vcc7wtzjptendqm6hhyp7vsq2q
   '@mui/material': 5.11.8_7lvnybexkut534cgvcnxgkj3r4
-  clsx: 1.1.1
+  clsx: 1.2.1
   next: 12.1.5_fcop3xylqakmbilfhdeuva2xj4
   next-pwa: 5.5.4_5scrvycioqx6xwpifw2byws6q4
   next-seo: 5.15.0_6mmgkiec7xkk52mcpbx2dejfl4
@@ -2354,11 +2354,6 @@ packages:
     dependencies:
       del: 4.1.1
       webpack: 5.75.0
-    dev: false
-
-  /clsx/1.1.1:
-    resolution: {integrity: sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==}
-    engines: {node: '>=6'}
     dev: false
 
   /clsx/1.2.1:
