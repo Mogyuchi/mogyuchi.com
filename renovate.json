@@ -1,4 +1,13 @@
 {
-  "extends": ["config:base"],
-  "labels": ["dependencies"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:js-app",
+    ":disableRateLimiting",
+    ":maintainLockFilesWeekly",
+    ":label(dependencies)",
+    ":assignAndReview(Mogyuchi)",
+    ":semanticCommits",
+    ":disablePrControls"
+  ],
+  "rebaseWhen": "never"
 }
