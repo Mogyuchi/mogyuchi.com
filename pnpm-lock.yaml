@@ -25,7 +25,7 @@ dependencies:
     version: 2.1.0
   next:
     specifier: 12.1.5
-    version: 12.1.5(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.58.0)
+    version: 12.1.5(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
   next-pwa:
     specifier: 5.5.4
     version: 5.5.4(@babel/core@7.24.0)(next@12.1.5)(webpack@5.90.3)
@@ -39,8 +39,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   sass:
-    specifier: 1.58.0
-    version: 1.58.0
+    specifier: 1.71.1
+    version: 1.71.1
   webpack:
     specifier: 5.90.3
     version: 5.90.3
@@ -4375,7 +4375,7 @@ packages:
       babel-loader: 8.3.0(@babel/core@7.24.0)(webpack@5.90.3)
       clean-webpack-plugin: 4.0.0(webpack@5.90.3)
       globby: 11.1.0
-      next: 12.1.5(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.58.0)
+      next: 12.1.5(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
       terser-webpack-plugin: 5.3.6(webpack@5.90.3)
       workbox-webpack-plugin: 6.5.4(webpack@5.90.3)
       workbox-window: 6.5.4
@@ -4396,12 +4396,12 @@ packages:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
     dependencies:
-      next: 12.1.5(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.58.0)
+      next: 12.1.5(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /next@12.1.5(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.58.0):
+  /next@12.1.5(@babel/core@7.24.0)(react-dom@18.2.0)(react@18.2.0)(sass@1.71.1):
     resolution: {integrity: sha512-YGHDpyfgCfnT5GZObsKepmRnne7Kzp7nGrac07dikhutWQug7hHg85/+sPJ4ZW5Q2pDkb+n0FnmLkmd44htIJQ==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -4424,7 +4424,7 @@ packages:
       postcss: 8.4.5
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      sass: 1.58.0
+      sass: 1.71.1
       styled-jsx: 5.0.1(@babel/core@7.24.0)(react@18.2.0)
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.1.5
@@ -4937,9 +4937,9 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /sass@1.58.0:
-    resolution: {integrity: sha512-PiMJcP33DdKtZ/1jSjjqVIKihoDc6yWmYr9K/4r3fVVIEDAluD0q7XZiRKrNJcPK3qkLRF/79DND1H5q1LBjgg==}
-    engines: {node: '>=12.0.0'}
+  /sass@1.71.1:
+    resolution: {integrity: sha512-wovtnV2PxzteLlfNzbgm1tFXPLoZILYAMJtvoXXkD7/+1uP41eKkIt1ypWq5/q2uT94qHjXehEYfmjKOvjL9sg==}
+    engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
