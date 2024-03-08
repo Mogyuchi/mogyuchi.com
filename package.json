@@ -9,7 +9,7 @@
     "postinstall": "git config --local core.hooksPath .githooks && chmod -R +x .githooks/"
   },
   "dependencies": {
-    "@babel/core": "7.20.12",
+    "@babel/core": "7.24.0",
     "@emotion/react": "11.11.4",
     "@emotion/styled": "11.11.0",
     "@mui/icons-material": "5.11.9",
