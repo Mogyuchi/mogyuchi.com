@@ -28,13 +28,13 @@ importers:
         version: 2.1.1
       next:
         specifier: 12.1.5
-        version: 12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0)
+        version: 12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.1)
       next-pwa:
         specifier: 5.5.4
-        version: 5.5.4(@babel/core@7.25.2)(next@12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0))(webpack@5.94.0)
+        version: 5.5.4(@babel/core@7.25.2)(next@12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.1))(webpack@5.94.0)
       next-seo:
         specifier: 6.6.0
-        version: 6.6.0(next@12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 6.6.0(next@12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -42,8 +42,8 @@ importers:
         specifier: 18.3.1
         version: 18.3.1(react@18.3.1)
       sass:
-        specifier: 1.78.0
-        version: 1.78.0
+        specifier: 1.79.1
+        version: 1.79.1
       webpack:
         specifier: 5.94.0
         version: 5.94.0
@@ -1196,10 +1196,6 @@ packages:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
     engines: {node: '>=8'}
 
-  anymatch@3.1.3:
-    resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
-    engines: {node: '>= 8'}
-
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
@@ -1305,10 +1301,6 @@ packages:
   big.js@5.2.2:
     resolution: {integrity: sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==}
 
-  binary-extensions@2.3.0:
-    resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
-    engines: {node: '>=8'}
-
   brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
 
@@ -1353,9 +1345,9 @@ packages:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
-  chokidar@3.6.0:
-    resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
-    engines: {node: '>= 8.10.0'}
+  chokidar@4.0.0:
+    resolution: {integrity: sha512-mxIojEAQcuEvT/lyXq+jf/3cO/KoA6z4CeNDGGevTybECPOMFCnQy3OPahluUkbqgPNGw5Bi78UC7Po6Lhy+NA==}
+    engines: {node: '>= 14.16.0'}
 
   chrome-trace-event@1.0.3:
     resolution: {integrity: sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==}
@@ -1894,10 +1886,6 @@ packages:
   is-bigint@1.0.4:
     resolution: {integrity: sha512-zB9CruMamjym81i2JZ3UMn54PKGsQzsJeo6xvN3HJJ4CAsQNB6iRutp2To77OfCNuoxspsIhzaPoO1zyCEhFOg==}
 
-  is-binary-path@2.1.0:
-    resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
-    engines: {node: '>=8'}
-
   is-boolean-object@1.1.2:
     resolution: {integrity: sha512-gDYaKHJmnj4aWxyj6YHyXVpdQawtVLHU5cb+eztPGczf6cjuTdwve5ZIEfgXqH4e57An1D1AKf8CZ3kYrQRqYA==}
     engines: {node: '>= 0.4'}
@@ -2236,10 +2224,6 @@ packages:
   node-releases@2.0.14:
     resolution: {integrity: sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==}
 
-  normalize-path@3.0.0:
-    resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
-    engines: {node: '>=0.10.0'}
-
   object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
@@ -2418,9 +2402,9 @@ packages:
     resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
 
-  readdirp@3.6.0:
-    resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
-    engines: {node: '>=8.10.0'}
+  readdirp@4.0.1:
+    resolution: {integrity: sha512-GkMg9uOTpIWWKbSsgwb5fA4EavTR+SG/PMPoAY8hkhHfEEY0/vqljY+XHqtDf2cr2IJtoNRDbrrEpZUiZCkYRw==}
+    engines: {node: '>= 14.16.0'}
 
   reflect.getprototypeof@1.0.6:
     resolution: {integrity: sha512-fmfw4XgoDke3kdI6h4xcUz1dG8uaiv5q9gcEwLS4Pnth2kxT+GZ7YehS1JTMGBQmtV7Y4GFGbs2re2NqhdozUg==}
@@ -2506,8 +2490,8 @@ packages:
     resolution: {integrity: sha512-CdASjNJPvRa7roO6Ra/gLYBTzYzzPyyBXxIMdGW3USQLyjWEls2RgW5UBTXaQVp+OrpeCK3bLem8smtmheoRuw==}
     engines: {node: '>= 0.4'}
 
-  sass@1.78.0:
-    resolution: {integrity: sha512-AaIqGSrjo5lA2Yg7RvFZrlXDBCp3nV4XP73GrLGvdRWWwk+8H3l0SDvq/5bA4eF+0RFPLuWUk3E+P1U/YqnpsQ==}
+  sass@1.79.1:
+    resolution: {integrity: sha512-+mA7svoNKeL0DiJqZGeR/ZGUu8he4I8o3jyUcOFyo4eBJrwNgIMmAEwCMo/N2Y3wdjOBcRzoNxZIOtrtMX8EXg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -4229,11 +4213,6 @@ snapshots:
     dependencies:
       color-convert: 2.0.1
 
-  anymatch@3.1.3:
-    dependencies:
-      normalize-path: 3.0.0
-      picomatch: 2.3.1
-
   argparse@2.0.1: {}
 
   aria-query@5.3.0:
@@ -4379,8 +4358,6 @@ snapshots:
 
   big.js@5.2.2: {}
 
-  binary-extensions@2.3.0: {}
-
   brace-expansion@1.1.11:
     dependencies:
       balanced-match: 1.0.2
@@ -4430,17 +4407,9 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chokidar@3.6.0:
+  chokidar@4.0.0:
     dependencies:
-      anymatch: 3.1.3
-      braces: 3.0.2
-      glob-parent: 5.1.2
-      is-binary-path: 2.1.0
-      is-glob: 4.0.3
-      normalize-path: 3.0.0
-      readdirp: 3.6.0
-    optionalDependencies:
-      fsevents: 2.3.3
+      readdirp: 4.0.1
 
   chrome-trace-event@1.0.3: {}
 
@@ -5125,10 +5094,6 @@ snapshots:
     dependencies:
       has-bigints: 1.0.2
 
-  is-binary-path@2.1.0:
-    dependencies:
-      binary-extensions: 2.3.0
-
   is-boolean-object@1.1.2:
     dependencies:
       call-bind: 1.0.7
@@ -5398,12 +5363,12 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next-pwa@5.5.4(@babel/core@7.25.2)(next@12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0))(webpack@5.94.0):
+  next-pwa@5.5.4(@babel/core@7.25.2)(next@12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.1))(webpack@5.94.0):
     dependencies:
       babel-loader: 8.3.0(@babel/core@7.25.2)(webpack@5.94.0)
       clean-webpack-plugin: 4.0.0(webpack@5.94.0)
       globby: 11.1.0
-      next: 12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0)
+      next: 12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.1)
       terser-webpack-plugin: 5.3.10(webpack@5.94.0)
       workbox-webpack-plugin: 6.6.0(webpack@5.94.0)
       workbox-window: 6.6.0
@@ -5416,13 +5381,13 @@ snapshots:
       - uglify-js
       - webpack
 
-  next-seo@6.6.0(next@12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next-seo@6.6.0(next@12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      next: 12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0)
+      next: 12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  next@12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0):
+  next@12.1.5(@babel/core@7.25.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.1):
     dependencies:
       '@next/env': 12.1.5
       caniuse-lite: 1.0.30001610
@@ -5443,14 +5408,12 @@ snapshots:
       '@next/swc-win32-arm64-msvc': 12.1.5
       '@next/swc-win32-ia32-msvc': 12.1.5
       '@next/swc-win32-x64-msvc': 12.1.5
-      sass: 1.78.0
+      sass: 1.79.1
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
 
   node-releases@2.0.14: {}
-
-  normalize-path@3.0.0: {}
 
   object-assign@4.1.1: {}
 
@@ -5621,9 +5584,7 @@ snapshots:
     dependencies:
       loose-envify: 1.4.0
 
-  readdirp@3.6.0:
-    dependencies:
-      picomatch: 2.3.1
+  readdirp@4.0.1: {}
 
   reflect.getprototypeof@1.0.6:
     dependencies:
@@ -5724,9 +5685,9 @@ snapshots:
       es-errors: 1.3.0
       is-regex: 1.1.4
 
-  sass@1.78.0:
+  sass@1.79.1:
     dependencies:
-      chokidar: 3.6.0
+      chokidar: 4.0.0
       immutable: 4.3.5
       source-map-js: 1.2.0
 
