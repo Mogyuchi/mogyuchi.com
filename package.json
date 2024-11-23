@@ -24,7 +24,7 @@
     "webpack": "5.96.1"
   },
   "devDependencies": {
-    "@types/node": "22.9.1",
+    "@types/node": "22.9.2",
     "@types/react": "18.3.12",
     "eslint": "8.57.1",
     "eslint-config-next": "15.0.3",
