@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@babel/core": "7.26.0",
-    "@emotion/react": "11.13.5",
-    "@emotion/styled": "11.13.5",
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.0",
     "@mui/icons-material": "6.1.9",
     "@mui/material": "6.1.9",
     "clsx": "2.1.1",
