@@ -31,7 +31,7 @@ importers:
         version: 15.2.4(@babel/core@7.26.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0)
       next-pwa:
         specifier: 5.5.4
-        version: 5.5.4(@babel/core@7.26.10)(next@15.2.4(@babel/core@7.26.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0))(webpack@5.97.1)
+        version: 5.5.4(@babel/core@7.26.10)(next@15.2.4(@babel/core@7.26.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0))(webpack@5.98.0)
       next-seo:
         specifier: 6.6.0
         version: 6.6.0(next@15.2.4(@babel/core@7.26.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -45,8 +45,8 @@ importers:
         specifier: 1.86.0
         version: 1.86.0
       webpack:
-        specifier: 5.97.1
-        version: 5.97.1
+        specifier: 5.98.0
+        version: 5.98.0
     devDependencies:
       '@types/node':
         specifier: 22.13.13
@@ -2714,10 +2714,6 @@ packages:
     resolution: {integrity: sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==}
     engines: {node: '>= 8.9.0'}
 
-  schema-utils@3.3.0:
-    resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==}
-    engines: {node: '>= 10.13.0'}
-
   schema-utils@4.3.0:
     resolution: {integrity: sha512-Gf9qqc58SpCA/xdziiHz35F4GNIWYWZrEshUc/G/r5BnLph6xpKuLeoJoQuj5WfBIx/eQLf+hmVPYHaxJu7V2g==}
     engines: {node: '>= 10.13.0'}
@@ -3038,8 +3034,8 @@ packages:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.97.1:
-    resolution: {integrity: sha512-EksG6gFY3L1eFMROS/7Wzgrii5mBAFe4rIr3r2BTfo7bcc+DWwFZ4OJ/miOuHJO/A85HwyI4eQ0F6IKXesO7Fg==}
+  webpack@5.98.0:
+    resolution: {integrity: sha512-UFynvx+gM44Gv9qFgj0acCQK2VE1CtdfwFdimkapco3hlPCJ/zeq73n2yVKimVbtm+TnApIugGhLJnkU6gjYXA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -4657,14 +4653,14 @@ snapshots:
 
   axobject-query@4.1.0: {}
 
-  babel-loader@8.4.1(@babel/core@7.26.10)(webpack@5.97.1):
+  babel-loader@8.4.1(@babel/core@7.26.10)(webpack@5.98.0):
     dependencies:
       '@babel/core': 7.26.10
       find-cache-dir: 3.3.2
       loader-utils: 2.0.4
       make-dir: 3.1.0
       schema-utils: 2.7.1
-      webpack: 5.97.1
+      webpack: 5.98.0
 
   babel-plugin-macros@3.1.0:
     dependencies:
@@ -4760,10 +4756,10 @@ snapshots:
 
   chrome-trace-event@1.0.4: {}
 
-  clean-webpack-plugin@4.0.0(webpack@5.97.1):
+  clean-webpack-plugin@4.0.0(webpack@5.98.0):
     dependencies:
       del: 4.1.1
-      webpack: 5.97.1
+      webpack: 5.98.0
 
   client-only@0.0.1: {}
 
@@ -5783,14 +5779,14 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next-pwa@5.5.4(@babel/core@7.26.10)(next@15.2.4(@babel/core@7.26.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0))(webpack@5.97.1):
+  next-pwa@5.5.4(@babel/core@7.26.10)(next@15.2.4(@babel/core@7.26.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0))(webpack@5.98.0):
     dependencies:
-      babel-loader: 8.4.1(@babel/core@7.26.10)(webpack@5.97.1)
-      clean-webpack-plugin: 4.0.0(webpack@5.97.1)
+      babel-loader: 8.4.1(@babel/core@7.26.10)(webpack@5.98.0)
+      clean-webpack-plugin: 4.0.0(webpack@5.98.0)
       globby: 11.1.0
       next: 15.2.4(@babel/core@7.26.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(sass@1.86.0)
-      terser-webpack-plugin: 5.3.14(webpack@5.97.1)
-      workbox-webpack-plugin: 6.6.0(webpack@5.97.1)
+      terser-webpack-plugin: 5.3.14(webpack@5.98.0)
+      workbox-webpack-plugin: 6.6.0(webpack@5.98.0)
       workbox-window: 6.6.0
     transitivePeerDependencies:
       - '@babel/core'
@@ -6154,12 +6150,6 @@ snapshots:
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
 
-  schema-utils@3.3.0:
-    dependencies:
-      '@types/json-schema': 7.0.15
-      ajv: 6.12.6
-      ajv-keywords: 3.5.2(ajv@6.12.6)
-
   schema-utils@4.3.0:
     dependencies:
       '@types/json-schema': 7.0.15
@@ -6388,14 +6378,14 @@ snapshots:
       type-fest: 0.16.0
       unique-string: 2.0.0
 
-  terser-webpack-plugin@5.3.14(webpack@5.97.1):
+  terser-webpack-plugin@5.3.14(webpack@5.98.0):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
       schema-utils: 4.3.0
       serialize-javascript: 6.0.2
       terser: 5.39.0
-      webpack: 5.97.1
+      webpack: 5.98.0
 
   terser@5.39.0:
     dependencies:
@@ -6527,7 +6517,7 @@ snapshots:
 
   webpack-sources@3.2.3: {}
 
-  webpack@5.97.1:
+  webpack@5.98.0:
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.7
@@ -6547,9 +6537,9 @@ snapshots:
       loader-runner: 4.3.0
       mime-types: 2.1.35
       neo-async: 2.6.2
-      schema-utils: 3.3.0
+      schema-utils: 4.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.14(webpack@5.97.1)
+      terser-webpack-plugin: 5.3.14(webpack@5.98.0)
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     transitivePeerDependencies:
@@ -6718,12 +6708,12 @@ snapshots:
 
   workbox-sw@6.6.0: {}
 
-  workbox-webpack-plugin@6.6.0(webpack@5.97.1):
+  workbox-webpack-plugin@6.6.0(webpack@5.98.0):
     dependencies:
       fast-json-stable-stringify: 2.1.0
       pretty-bytes: 5.6.0
       upath: 1.2.0
-      webpack: 5.97.1
+      webpack: 5.98.0
       webpack-sources: 1.4.3
       workbox-build: 6.6.0
     transitivePeerDependencies:
