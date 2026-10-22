@@ -21,7 +21,7 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "sass": "1.86.0",
-    "webpack": "5.98.0"
+    "webpack": "5.104.1"
   },
   "devDependencies": {
     "@types/node": "24.13.3",
